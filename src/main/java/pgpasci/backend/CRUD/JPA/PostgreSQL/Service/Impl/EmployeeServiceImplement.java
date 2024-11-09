@@ -24,7 +24,7 @@ public class EmployeeServiceImplement implements EmployeeService {
                      !! Try This Best Practice !!
                     TODO  :
                         (this::mapToEmployeeDto)
-                            NOTE : THIS FUNCTION NAMED METHOD REFERENCE
+                            NOTE : THIS FUNCTION NAMED METHOD REFERENCE ->
                 */
                 .map(employee -> EmployeeDto.toDto(employee))
                 .collect(Collectors.toList());

@@ -1,11 +1,10 @@
 server:
     port: 9090
-
 spring:
     application:
         name: CRUD.JPA.PostgreSQL
     datasource:
-        url: jdbc:postgresql://localhost:5432/crudJpaPostgreSQL
+        url: jdbc:postgresql://localhost:5431/crudJpaPostgreSQL
         username: postgres
         password: progpasci
         driver-class-name: org.postgresql.Driver
